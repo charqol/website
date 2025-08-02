@@ -1,6 +1,6 @@
-# Charcoal HR - Enterprise Multi-tenant SaaS Web App
+# Charcoal ERP - Enterprise Multi-tenant SaaS Web App
 
-A comprehensive HR management system built with SvelteKit and Svelte 5, featuring a modern UI with Tailwind CSS.
+A comprehensive ERP system built with SvelteKit and Svelte 5, featuring a modern UI with Tailwind CSS.
 
 ## Features
 
