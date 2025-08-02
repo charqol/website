@@ -1,0 +1,23 @@
+{
+    "title": "Provisioning AWS ECS Services using Pulumi",
+    "date": "2024-10-25",
+    "image": "hero.jpg",
+    "description": "A step by step walk-through for provisioning AWS ECS services using Pulumi.",
+    "tags": [
+        "Cloud Computing",
+        "AWS",
+        "EKS",
+        "Kubernetes",
+        "Docker",
+        "Pulumi"
+    ],
+    "category": "Cloud",
+    "authorNames": [
+        "Sahil Phule"
+    ],
+    "series": {
+        "title": "Pulumi",
+        "sequence": 2
+    },
+    "readTimeMinutes": 10
+}

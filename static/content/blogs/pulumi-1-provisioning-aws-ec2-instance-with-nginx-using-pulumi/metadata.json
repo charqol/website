@@ -1,0 +1,22 @@
+{
+    "title": "Provisioning AWS EC2 Instance with Nginx using Pulumi",
+    "date": "2024-10-11",
+    "image": "hero.jpg",
+    "description": "A step by step walk-through for provisioning AWS EC2 instance with Nginx using Pulumi.",
+    "tags": [
+        "Cloud Computing",
+        "AWS",
+        "EC2",
+        "Nginx",
+        "Pulumi"
+    ],
+    "category": "Cloud",
+    "authorNames": [
+        "Priyanka Kale"
+    ],
+    "series": {
+        "title": "Pulumi",
+        "sequence": 1
+    },
+    "readTimeMinutes": 10
+}

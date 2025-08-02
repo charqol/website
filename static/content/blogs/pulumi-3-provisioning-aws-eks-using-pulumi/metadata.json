@@ -1,0 +1,21 @@
+{
+    "title": "Provisioning AWS EKS cluster using Pulumi",
+    "date": "2024-11-05",
+    "image": "hero.jpg",
+    "description": "A step by step walk-through for provisioning AWS EKS cluster using Pulumi.",
+    "tags": [
+        "Cloud Computing",
+        "AWS",
+        "EKS",
+        "Pulumi"
+    ],
+    "category": "Cloud",
+    "authorNames": [
+        "Sahil Phule"
+    ],
+    "series": {
+        "title": "Pulumi",
+        "sequence": 3
+    },
+    "readTimeMinutes": 10
+}

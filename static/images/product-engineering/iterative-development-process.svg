@@ -1,0 +1,123 @@
+<svg viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+
+    <defs>
+        <!-- Arrowhead Marker -->
+        <!-- <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5"
+        orient="auto" markerUnits="strokeWidth">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#f84711" />
+        </marker> -->
+
+        <!-- Gradient for Nodes (White to Orange Radial) -->
+        <radialGradient id="nodeRadialGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+            <stop offset="0%" style="stop-color:white; stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#F97316; stop-opacity:1" />
+        </radialGradient>
+
+        <!-- Gradient for Arrow Shading (Dark Slate to Lighter Slate) -->
+        <linearGradient id="arrowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#2F4F4F; stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#466363; stop-opacity:1" />
+        </linearGradient>
+
+        <!-- Styles for Theme Adaptation -->
+        <style>
+            .title-text {
+            fill: #191e25; /* Default: Dark Gray for Light Mode */
+            }
+            .node-label-text {
+            fill: #191e25; /* Default: Very Dark Gray for Light Mode */
+            }
+
+            @media (prefers-color-scheme: dark) {
+            .title-text {
+            fill: #D1D5DB; /* Light Gray for Dark Mode */
+            }
+            .node-label-text {
+            fill: #E5E7EB; /* Lighter Gray for Dark Mode */
+            }
+            }
+        </style>
+    </defs>
+
+    <!-- Central Title -->
+    <text x="350" y="345" font-size="24" font-weight="bold" text-anchor="middle" class="title-text">Our
+        Iterative</text>
+    <text x="350" y="375" font-size="24" font-weight="bold" text-anchor="middle" class="title-text">
+        Approach</text>
+
+    <!-- Nodes and Titles -->
+    <g id="node1">
+        <circle cx="350" cy="100" r="50" fill="url(#nodeRadialGradient)" stroke="#D97706"
+            stroke-width="2" />
+        <text x="350" y="108" font-size="30" text-anchor="middle">💡</text>
+        <text x="350" y="165" font-size="14" font-weight="medium" text-anchor="middle"
+            class="node-label-text">1. Ideate &amp; Validate</text>
+    </g>
+
+    <g id="node2">
+        <circle cx="567" cy="225" r="50" fill="url(#nodeRadialGradient)" stroke="#D97706"
+            stroke-width="2" />
+        <text x="567" y="233" font-size="30" text-anchor="middle">🎨</text>
+        <text x="565" y="290" font-size="14" font-weight="medium" text-anchor="middle"
+            class="node-label-text">2. Design &amp; Prototype</text>
+    </g>
+
+    <g id="node3">
+        <circle cx="567" cy="475" r="50" fill="url(#nodeRadialGradient)" stroke="#D97706"
+            stroke-width="2" />
+        <text x="567" y="483" font-size="30" text-anchor="middle">🔧</text>
+        <text x="460" y="490" font-size="14" font-weight="medium" text-anchor="middle"
+            class="node-label-text">3. Build &amp; Iterate</text>
+    </g>
+
+    <g id="node4">
+        <circle cx="350" cy="600" r="50" fill="url(#nodeRadialGradient)" stroke="#D97706"
+            stroke-width="2" />
+        <text x="350" y="608" font-size="30" text-anchor="middle">🧪</text>
+        <text x="350" y="665" font-size="14" font-weight="medium" text-anchor="middle"
+            class="node-label-text">4. Test &amp; Validate</text>
+    </g>
+
+    <g id="node5">
+        <circle cx="133" cy="475" r="50" fill="url(#nodeRadialGradient)" stroke="#D97706"
+            stroke-width="2" />
+        <text x="133" y="483" font-size="30" text-anchor="middle">🚀</text>
+        <text x="250" y="490" font-size="14" font-weight="medium" text-anchor="middle"
+            class="node-label-text">5. Launch &amp; Scale</text>
+    </g>
+
+    <g id="node6">
+        <circle cx="133" cy="225" r="50" fill="url(#nodeRadialGradient)" stroke="#D97706"
+            stroke-width="2" />
+        <text x="133" y="233" font-size="30" text-anchor="middle">⭮</text>
+        <text x="140" y="290" font-size="14" font-weight="medium" text-anchor="middle"
+            class="node-label-text">6. Evolve &amp; Support</text>
+    </g>
+
+    <!-- Connecting Lines (Thicker, Dual-Toned with Gradient Shading, No Arrowheads, Shortened) -->
+    <!-- Line 1 -> 2 -->
+    <path d="M 415, 109 A 250 250 0 0 1 533, 180" stroke="#f05521" stroke-width="8" fill="none" />
+    <path d="M 415, 109 A 250 250 0 0 1 533, 180" stroke="url(#arrowGradient)" stroke-width="4"
+        fill="none" />
+    <!-- Line 2 -> 3 -->
+    <path d="M 595, 298 A 250 250 0 0 1 595, 402" stroke="#f05521" stroke-width="8" fill="none" />
+    <path d="M 595, 298 A 250 250 0 0 1 595, 402" stroke="url(#arrowGradient)" stroke-width="4"
+        fill="none" />
+    <!-- Line 3 -> 4 -->
+    <path d="M 533, 521 A 250 250 0 0 1 415, 592" stroke="#f05521" stroke-width="8" fill="none" />
+    <path d="M 533, 521 A 250 250 0 0 1 415, 592" stroke="url(#arrowGradient)" stroke-width="4"
+        fill="none" />
+    <!-- Line 4 -> 5 -->
+    <path d="M 285, 592 A 250 250 0 0 1 167, 521" stroke="#f05521" stroke-width="8" fill="none" />
+    <path d="M 285, 592 A 250 250 0 0 1 167, 521" stroke="url(#arrowGradient)" stroke-width="4"
+        fill="none" />
+    <!-- Line 5 -> 6 -->
+    <path d="M 106, 402 A 250 250 0 0 1 106, 298" stroke="#f05521" stroke-width="8" fill="none" />
+    <path d="M 106, 402 A 250 250 0 0 1 106, 298" stroke="url(#arrowGradient)" stroke-width="4"
+        fill="none" />
+    <!-- Line 6 -> 1 -->
+    <path d="M 167, 180 A 250 250 0 0 1 285, 109" stroke="#f05521" stroke-width="8" fill="none" />
+    <path d="M 167, 180 A 250 250 0 0 1 285, 109" stroke="url(#arrowGradient)" stroke-width="4"
+        fill="none" />
+
+</svg>

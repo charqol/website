@@ -1,0 +1,24 @@
+{
+    "title": "Nginx Load Balancing with AWS EC2 and Docker",
+    "date": "2024-09-05",
+    "image": "hero.jpg",
+    "description": "A step by step walk-through for provisioning Minikube cluster locally on windows.",
+    "tags": [
+        "Cloud Computing",
+        "Docker",
+        "AWS",
+        "EC2",
+        "Load Balancing",
+        "Deployment",
+        "Nginx"
+    ],
+    "category": "Cloud",
+    "authorNames": [
+        "Sahil Phule"
+    ],
+    "series": {
+        "title": "Nginx",
+        "sequence": 1
+    },
+    "readTimeMinutes": 10
+}

@@ -1,0 +1,25 @@
+{
+    "title": "Deploy and Monitor Workloads on EKS Cluster using Lens IDE",
+    "date": "2024-08-25",
+    "image": "hero.jpg",
+    "description": "A complete walk-through for the deployment and monitoring of EKS workloads.",
+    "tags": [
+        "Cloud Computing",
+        "Kubernetes",
+        "AWS",
+        "EKS",
+        "Lens",
+        "Deployment",
+        "Monitoring",
+        "Kubernetes IDE"
+    ],
+    "category": "Cloud",
+    "authorNames": [
+        "Priyanka Kale"
+    ],
+    "series": {
+        "title": "Lens Kubernetes IDE",
+        "sequence": 2
+    },
+    "readTimeMinutes": 15
+}

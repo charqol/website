@@ -1,0 +1,26 @@
+{
+    "title": "Provision and Monitor Kubernetes Workloads on Minikube Using Lense IDE",
+    "date": "2024-07-15",
+    "image": "hero.jpeg",
+    "description": "A step by step walk-through for provisioning Minikube cluster locally on windows.",
+    "tags": [
+        "Cloud Computing",
+        "Kubernetes",
+        "Minikube",
+        "K3S",
+        "MicroK8s",
+        "Lens",
+        "Deployment",
+        "Monitoring",
+        "Kubernetes IDE"
+    ],
+    "category": "Cloud",
+    "authorNames": [
+        "Priyanka Kale"
+    ],
+    "series": {
+        "title": "Lens Kubernetes IDE",
+        "sequence": 1
+    },
+    "readTimeMinutes": 12
+}

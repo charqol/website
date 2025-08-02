@@ -1,0 +1,23 @@
+// Uncomment this for PWA
+// {
+//     "name": "Inflection Zone Lab",
+//     "short_name": "Inflection Zone Lab",
+//     "description": "Inflection Zone Lab is a software development company that provides expert software development solutions tailored for your business.",
+//     "start_url": "/",
+//     "display": "standalone",
+//     "background_color": "#ffffff",
+//     "theme_color": "#ff6600",
+//     "orientation": "portrait-primary",
+//     "icons": [
+//         {
+//             "src": "/icons/icon-192x192.png",
+//             "sizes": "192x192",
+//             "type": "image/png"
+//         },
+//         {
+//             "src": "/icons/icon-512x512.png",
+//             "sizes": "512x512",
+//             "type": "image/png"
+//         }
+//     ]
+// }

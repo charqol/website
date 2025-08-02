@@ -1,43 +1,15 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/inflection logo.png" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 		%sveltekit.head%
-		<title>Inflection Zone Labs</title>
-		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-		<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
-
 	</head>
-	<body data-sveltekit-preload-data="hover">
+	<body data-sveltekit-preload-data="hover" class="bg-neutral-50 text-neutral-900 dark:bg-neutral-900 dark:text-white">
 		<div style="display: contents">%sveltekit.body%</div>
-		<script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
-		<script>
-			document.addEventListener('DOMContentLoaded', function () {
-				var swiper = new Swiper('.swiper-container', {
-					loop: true,
-					pagination: {
-						el: '.swiper-pagination',
-						clickable: true
-					},
-					navigation: {
-						nextEl: '.swiper-button-next',
-						prevEl: '.swiper-button-prev'
-					},
-					autoplay: {
-						delay: 2000, // Slide will change every 5 seconds
-						disableOnInteraction: false // Autoplay will not be disabled after interactions
-					}
-				});
-			});
-		</script>
-		 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-		 <script>
-		   AOS.init();
-		 </script>
 	</body>
 </html>
