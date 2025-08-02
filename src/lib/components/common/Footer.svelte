@@ -18,12 +18,11 @@
                 <h3
                     class="text-2xl font-bold bg-gradient-to-r from-primary-500 to-primary-600 bg-clip-text text-transparent"
                 >
-                    Inflection Zone Lab
+                    Charcoal ERP
                 </h3>
                 <p class="text-gray-400 font-sans">
-                    <span class="text-primary-500">Less Drag.</span>
-                    <span class="text-violet-400">More Dev.</span>
-                    <span class="text-green-500">Any Scale.</span></p>
+                    Comprehensive ERP solutions for modern businesses. Streamline your operations with our integrated suite of 18 powerful modules.
+                </p>
                 <div class="flex space-x-4">
                     {#each socialLinks as link}
                         <a
@@ -153,6 +152,6 @@
     <!-- Add a very thin line here -->
     <div class="mt-4 border-t border-gray-800"></div>
     <div class="mt-4 text-center text-gray-500">
-        <p>© {new Date().getFullYear()} Inflection Zone Lab. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Charcoal ERP. All rights reserved.</p>
     </div>
 </footer>

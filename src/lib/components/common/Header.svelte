@@ -39,12 +39,12 @@
         <div class="flex items-center justify-between">
             <!-- Logo and Site Name -->
             <div class="flex items-center space-x-2 flex-shrink-0 px-2">
-                <img src="/images/logo_1024x1024_transparent.png" alt="Inflection Zone Lab" class="w-12 h-12" />
+                <img src="/images/logo_1024x1024_transparent.png" alt="Charcoal ERP" class="w-12 h-12" />
                 <a
                     href="/"
                     class="text-xl lg:text-2xl font-bold bg-gradient-to-r from-primary-500 to-primary-800 bg-clip-text text-transparent hover:from-primary-600 hover:to-primary-700 transition-all duration-300 whitespace-nowrap"
                 >
-                    Inflection Zone Lab
+                    Charcoal ERP
                 </a>
             </div>
 

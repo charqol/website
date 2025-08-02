@@ -77,8 +77,8 @@ export async function sendAdminNotification(formData: ContactFormData): Promise<
         }
 
         const mailOptions = {
-            from: 'contact@inflectionzone.com',
-            to: 'sales@inflectionzone.com',
+            from: 'contact@charcoalerp.com',
+            to: 'sales@charcoalerp.com',
             subject: 'New Contact Form Submission',
             html: htmlContent
         };
@@ -114,9 +114,9 @@ export async function sendUserConfirmation(formData: ContactFormData): Promise<b
         }
 
         const mailOptions = {
-            from: 'contact@inflectionzone.com',
+            from: 'contact@charcoalerp.com',
             to: formData.email,
-            subject: 'Thank You for Contacting Inflection Zone',
+            subject: 'Thank You for Contacting Charcoal ERP',
             html: htmlContent
         };
 

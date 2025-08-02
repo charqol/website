@@ -1,91 +1,92 @@
 import type { CaseStudy } from '$lib/types/case.study';
+
 export const caseStudies: CaseStudy[] = [
     {
         id: 1,
-        category: 'Finance',
-        title: 'Accounting for Crypto & Fiat Currencies',
-        description: 'Helped a crypto-enabled Fintech company develop an accounting software supporting Fiat as well as Crypto currencies for their ecosystem of products.',
-        image: '/images/case-studies/crypto-accounting.jpg',
-        link: '/industries/finance#case-studies'
+        category: 'Manufacturing',
+        title: 'Automotive Parts Manufacturing Transformation',
+        description: 'Helped a leading automotive parts manufacturer implement a complete ERP solution with ManufactureOps, QualityCheck, and StockKeep modules, resulting in 40% reduction in production waste and 25% improvement in delivery times.',
+        image: '/images/case-studies/automotive-manufacturing.jpg',
+        link: '/industries/manufacturing#case-studies'
     },
     {
         id: 2,
         category: 'Healthcare',
-        title: 'Patient Self Management System',
-        description: 'Built a complete patient self management system for a healthcare foundation. It enables users to track symptoms, medication, and lifestyle habits, while also facilitating communication with healthcare providers.',
-        image: '/images/case-studies/healthcare.jpg',
+        title: 'Hospital Equipment Management System',
+        description: 'Implemented AssetTrack and MaintenanceHub modules for a multi-location hospital group, improving equipment uptime by 30% and ensuring 100% compliance with regulatory requirements.',
+        image: '/images/case-studies/hospital-equipment.jpg',
         link: '/industries/healthcare#case-studies'
     },
     {
         id: 3,
-        category: 'E-commerce',
-        title: 'E-commerce for Manufacturing',
-        description: 'Built a `Proof of Concept` pilot for a startup specializing in E-commerce for Manufacturing Goods and Tools. The PoC helped the startup get a market feedback early and iteratively.',
-        image: '/images/case-studies/ecommerce.jpg',
-        link: '/industries/ecommerce#case-studies'
+        category: 'Construction',
+        title: 'Multi-Site Construction Project Management',
+        description: 'Deployed ProjectHub and Timetrack modules for a construction company managing 15+ concurrent projects, enabling real-time labor tracking and improving project delivery by 20%.',
+        image: '/images/case-studies/construction-management.jpg',
+        link: '/industries/construction#case-studies'
     },
     {
         id: 4,
-        category: 'Enterprise',
-        title: 'Custom ERP for SME Businesses',
-        description: 'Enabled multiple SMEs working to streamline their operations with a custom-built ERP solution. Their processes demanded a high degree of customization, which we delivered.',
-        image: '/images/case-studies/erp.jpg',
-        link: '/industries/enterprise#case-studies'
+        category: 'Services',
+        title: 'IT Services Company Digital Transformation',
+        description: 'Complete ERP implementation for a growing IT services company with 200+ employees, integrating Workforce, CustomerCare, and ProjectHub modules for streamlined operations.',
+        image: '/images/case-studies/it-services-erp.jpg',
+        link: '/industries/services#case-studies'
     },
     {
         id: 5,
-        category: 'Healthcare AI',
-        title: 'Agentic Routing Chatbot Platform',
-        description: 'We built a chatbot platform that uses LLMs, RAG, and Agentic Routing for appointment scheduling, medication reminders, and condition-specific healthcare queries.',
-        image: '/images/case-studies/chatbot-2.jpg',
-        link: '/industries/healthcare#case-studies'
+        category: 'Finance',
+        title: 'Multi-Entity Financial Management',
+        description: 'Implemented LedgerBook and Vetan modules for a holding company with 8 subsidiaries, providing consolidated financial reporting and automated payroll processing across all entities.',
+        image: '/images/case-studies/financial-consolidation.jpg',
+        link: '/industries/finance#case-studies'
     },
     {
         id: 6,
-        category: 'Enterprise',
-        title: 'Workflow Engine',
-        description: 'This custom workflow engine is built for conversational, organizational, multi-step, task-based workflows. Supports schedules, events, conditions and multi-branched hierrachical schema management.',
-        image: '/images/case-studies/workflow-2.jpg',
-        link: '/industries/enterprise#case-studies'
+        category: 'Education',
+        title: 'University Administration System',
+        description: 'Deployed comprehensive ERP solution for a large university including Workforce, AssetTrack, and DocumentFlow modules, streamlining administrative processes for 5,000+ students and 500+ staff.',
+        image: '/images/case-studies/university-administration.jpg',
+        link: '/industries/education#case-studies'
     },
     {
         id: 7,
-        category: 'Industrial',
-        title: 'Battery Testing Software',
-        description: 'We modernized a legacy system improving testing efficiency as well as accuracy. It is complete overhaul of the legacy system.',
-        image: '/images/case-studies/battery.jpg',
-        link: '/industries/manufacturing#case-studies'
+        category: 'Retail',
+        title: 'Multi-Store Inventory Management',
+        description: 'Implemented StockKeep and PurchaseFlow modules for a retail chain with 25 locations, reducing inventory costs by 35% and improving stock accuracy to 99.5%.',
+        image: '/images/case-studies/retail-inventory.jpg',
+        link: '/industries/retail#case-studies'
     },
     {
         id: 8,
-        category: 'Security',
-        title: 'Identity Management Platform',
-        description: 'This was built for a technology startup specializing in Identity solutions. The solution provides OAuth2 based multi-modal authentication (OTP, Face Biometrics, Fingerprint, Email, SMS, etc.).',
-        image: '/images/case-studies/iam.jpg',
-        link: '/industries/enterprise#case-studies'
+        category: 'Government',
+        title: 'Municipal Asset Management',
+        description: 'Deployed AssetTrack and MaintenanceHub for a city government to manage public infrastructure, improving maintenance efficiency by 45% and extending asset lifecycles.',
+        image: '/images/case-studies/municipal-assets.jpg',
+        link: '/industries/government#case-studies'
     },
     {
         id: 9,
-        category: 'Healthcare',
-        title: 'Time Series Signal Processing',
-        description: 'We built a Recurrent Neural Network (RNN) based system for processing time series signals. The system was used to predict the preventive maintenence schedule for a cetain class of machines.',
-        image: '/images/case-studies/biometric-2.jpg',
-        link: '/industries/healthcare#case-studies'
+        category: 'Food & Beverage',
+        title: 'Food Processing Quality Management',
+        description: 'Implemented QualityCheck and ManufactureOps modules for a food processing company, achieving 100% FDA compliance and reducing quality incidents by 60%.',
+        image: '/images/case-studies/food-processing.jpg',
+        link: '/industries/food-beverage#case-studies'
     },
     {
         id: 10,
-        category: 'AI/ML',
-        title: 'Face Recognition Benchmarking',
-        description: 'We helped a customer benchmark their face recognition system against NIST standards. Whole of this work posed major techical challenges due to the technology stack differences.',
-        image: '/images/case-studies/face-recognition.jpg',
-        link: '/industries/enterprise#case-studies'
+        category: 'Real Estate',
+        title: 'Property Management ERP Solution',
+        description: 'Complete ERP implementation for a property management company handling 500+ properties, integrating maintenance, financial, and tenant management processes.',
+        image: '/images/case-studies/property-management.jpg',
+        link: '/industries/realestate#case-studies'
     },
     {
         id: 11,
-        category: 'Education',
-        title: 'E-Learning Platform',
-        description: 'Custom LMS to serve online courses. The platform supports video, audio, and text content, and includes features for tracking user progress and generating certificates.',
-        image: '/images/case-studies/elearning.jpg',
-        link: '/industries/education#case-studies'
+        category: 'Energy',
+        title: 'Renewable Energy Asset Tracking',
+        description: 'Deployed AssetTrack and MaintenanceHub for a solar energy company managing 50+ installations, improving maintenance scheduling and equipment performance monitoring.',
+        image: '/images/case-studies/renewable-energy.jpg',
+        link: '/industries/energy#case-studies'
     }
 ];
